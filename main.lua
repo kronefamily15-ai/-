@@ -20,7 +20,7 @@ local zeroWidth = loadModule("zero_width.lua")
 local unicodeObf = loadModule("unicode_obf.lua")
 local antiSpam = loadModule("anti_spam.lua")
 
-local CONFIG_URL = BASE_URL .. "config.json"
+local CONFIG_URL = BASE_URL .. "https://github.com/kronefamily15-ai/-/blob/main/config.json"
 local EXTRA_URL = BASE_URL .. "extra_symbols.json"
 
 local function fetchConfig(url)
