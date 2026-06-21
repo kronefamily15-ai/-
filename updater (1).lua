@@ -1,5 +1,5 @@
 local HttpService = game:GetService("HttpService")
-local CONFIG_URL = ""
+local CONFIG_URL = "https://github.com/kronefamily15-ai/-/blob/main/config.json"
 local EXTRA_URL = ""
 
 local function fetchJSON(url)
