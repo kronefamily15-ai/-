@@ -21,7 +21,7 @@ local unicodeObf = loadModule("unicode_obf.lua")
 local antiSpam = loadModule("anti_spam.lua")
 
 local CONFIG_URL = BASE_URL .. "https://github.com/kronefamily15-ai/-/blob/main/config.json"
-local EXTRA_URL = BASE_URL .. "extra_symbols.json"
+local EXTRA_URL = BASE_URL .. "https://github.com/kronefamily15-ai/-/blob/main/extra_symbols.json"
 
 local function fetchConfig(url)
     local success, data = pcall(function() return HttpService:GetAsync(url) end)
