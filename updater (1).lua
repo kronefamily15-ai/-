@@ -1,6 +1,6 @@
 local HttpService = game:GetService("HttpService")
 local CONFIG_URL = "https://github.com/kronefamily15-ai/-/blob/main/config.json"
-local EXTRA_URL = ""
+local EXTRA_URL = "https://github.com/kronefamily15-ai/-/blob/main/extra_symbols.json"
 
 local function fetchJSON(url)
     local success, data = pcall(function() return HttpService:GetAsync(url) end)
